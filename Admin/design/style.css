@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('../images/fond.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed; */
+    background-color: rgba(182, 204, 180, 0.486);
+    opacity: 0.6;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 40px auto;
+    border: 2px double green;
+    box-shadow: 0px 2px 4px 0px green;
+    height: 80vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contenu .largeur-max {
+    height: inherit;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenu .largeur-max .zone_connexion form {
+    width: 500px;
+    height: inherit;
+    padding: 12px;
+}
+
+.contenu .largeur-max .zone_connexion form .titre {
+    color: green;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.contenu .largeur-max .zone_connexion form hr {
+    margin-bottom: 40px;
+    border-color: green;
+}
+
+.contenu .largeur-max .zone_connexion form .affiche_erreurs {
+    text-align: center;
+    color: brown;
+}
+
+.contenu .largeur-max .zone_connexion form .zone_saisie input {
+    width: 300px;
+    height: 45px;
+    margin: 4px;
+    padding: 12px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid green;
+    background: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contenu .largeur-max .zone_connexion form .btn input {
+    width: 300px;
+    height: 45px;
+    margin: 4px;
+    padding: 12px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid green;
+    background: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.contenu .largeur-max .zone_connexion form .btn input:hover {
+    background: green;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.contenu .largeur-max .zone_connexion form p a {
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(24, 99, 240);
+    float: left;
+    padding-top: 30px;
+    margin-left: 80px;
+    transition: all 0.5s ease;
+}
+
+.contenu .largeur-max .zone_connexion form p a:hover {
+    color: green;
+}
